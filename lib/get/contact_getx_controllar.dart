@@ -16,6 +16,7 @@ class ContactGetxControllar extends GetxController {
   void onInit() {
     read();
     super.onInit();
+
   }
 
   Future<void> read () async {
